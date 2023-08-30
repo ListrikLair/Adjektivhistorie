@@ -1,0 +1,19 @@
+#story{
+    border: dotted 3px darkblue;
+    max-width: fit-content;
+}
+#allButtons{
+    display: grid;
+    grid-template-columns: repeat(2, 5rem);
+    grid-template-rows: repeat(3, 3rem);
+}
+#allButtons>div{
+    background-color: aqua;
+    border: solid 1px black;
+    border-radius: 50%;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: 5px;
+    margin-top: 5px;
+}
